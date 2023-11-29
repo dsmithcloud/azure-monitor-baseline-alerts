@@ -3,22 +3,22 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "enterpriseScaleCompanyPrefix": {
-      "value": "contoso"
+      "value": "dsmith"
     },
     "platformManagementGroup": {
-      "value": "contoso-platform"
+      "value": "dsmith-platform"
     },
     "IdentityManagementGroup": {
-      "value": "contoso-identity"
+      "value": "dsmith-identity"
     },
     "managementManagementGroup": {
-      "value": "contoso-management"
+      "value": "dsmith-management"
     },
     "connectivityManagementGroup": {
-      "value": "contoso-connectivity"
+      "value": "dsmith-connectivity"
     },
     "LandingZoneManagementGroup": {
-      "value": "contoso-landingzones"
+      "value": "dsmith-landingzones"
     },
     "enableAMBAConnectivity": {
       "value": "Yes"
@@ -49,14 +49,14 @@
           }
         },
         "ALZMonitorResourceGroupLocation": {
-          "value": "eastus"
+          "value": "southcentralus"
         }
       }
     },
     "policyAssignmentParametersServiceHealth": {
       "value": {
         "ALZMonitorActionGroupEmail": {
-          "value": "action@mail.com"
+          "value": "smithdavid@microsoft.com"
         },
         "ResHlthUnhealthyAlertState": {
           "value": "true"
@@ -1214,10 +1214,14 @@
           "value": "1"
         },
         "VMNetworkInComputersToInclude": {
-          "value": ["*"]
+          "value": [
+            "*"
+          ]
         },
         "VMNetworkInNetworkInterfaceToInclude": {
-          "value": ["*"]
+          "value": [
+            "*"
+          ]
         },
         "VMNetworkOutAlertSeverity": {
           "value": "2"
@@ -1259,10 +1263,14 @@
           "value": "1"
         },
         "VMNetworkOutComputersToInclude": {
-          "value": ["*"]
+          "value": [
+            "*"
+          ]
         },
         "VMNetworkOutNetworkInterfaceToInclude": {
-          "value": ["*"]
+          "value": [
+            "*"
+          ]
         },
         "VMOSDiskReadLatencyAlertSeverity": {
           "value": "2"
@@ -1304,10 +1312,15 @@
           "value": "1"
         },
         "VMOSDiskReadLatencyComputersToInclude": {
-          "value": ["*"]
+          "value": [
+            "*"
+          ]
         },
         "VMOSDiskReadLatencyDisksToInclude": {
-          "value": ["C:", "/"]
+          "value": [
+            "C:",
+            "/"
+          ]
         },
         "VMOSDiskWriteLatencyAlertSeverity": {
           "value": "2"
@@ -1349,10 +1362,15 @@
           "value": "1"
         },
         "VMOSDiskWriteLatencyComputersToInclude": {
-          "value": ["*"]
+          "value": [
+            "*"
+          ]
         },
         "VMOSDiskWriteLatencyDisksToInclude": {
-          "value": ["C:", "/"]
+          "value": [
+            "C:",
+            "/"
+          ]
         },
         "VMOSDiskSpaceAlertSeverity": {
           "value": "2"
@@ -1394,10 +1412,15 @@
           "value": "1"
         },
         "VMOSDiskSpaceComputersToInclude": {
-          "value": ["*"]
+          "value": [
+            "*"
+          ]
         },
         "VMOSDiskSpaceDisksToInclude": {
-          "value": ["C:", "/"]
+          "value": [
+            "C:",
+            "/"
+          ]
         },
         "VMPercentCPUAlertSeverity": {
           "value": "2"
@@ -1505,7 +1528,9 @@
           "value": "1"
         },
         "VMDataDiskSpaceDisksToInclude": {
-          "value": ["*"]
+          "value": [
+            "*"
+          ]
         },
         "VMDataDiskReadLatencyAlertSeverity": {
           "value": "2"
@@ -1547,10 +1572,14 @@
           "value": "1"
         },
         "VMDataDiskReadLatencyComputersToInclude": {
-          "value": ["*"]
+          "value": [
+            "*"
+          ]
         },
         "VMDataDiskReadLatencyDisksToInclude": {
-          "value": ["*"]
+          "value": [
+            "*"
+          ]
         },
         "VMDataDiskWriteLatencyAlertSeverity": {
           "value": "2"
@@ -1592,10 +1621,14 @@
           "value": "1"
         },
         "VMDataDiskWriteLatencyComputersToInclude": {
-          "value": ["*"]
+          "value": [
+            "*"
+          ]
         },
         "VMDataDiskWriteLatencyDisksToInclude": {
-          "value": ["*"]
+          "value": [
+            "*"
+          ]
         },
         "AGWApplicationGatewayTotalTimeAlertSeverity": {
           "value": "2"
